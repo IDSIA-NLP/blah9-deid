@@ -1,4 +1,4 @@
-  Interesting papers
+### Interesting papers
 - Lison, Pierre, et al. "Anonymisation models for text data: State of the art, challenges and future directions." Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2021.
 - Ge, Yao, et al. "Few-shot learning for medical text: A review of advances, trends, and opportunities." Journal of Biomedical Informatics (2023): 104458.
 - Nerella, Subhash, et al. "Transformers in healthcare: A survey." arXiv preprint arXiv:2307.00067 (2023).
@@ -20,5 +20,16 @@
 - **Kovačević, Aleksandar, et al. "De-identification of clinical free text using natural language processing: A systematic review of current approaches." Artificial Intelligence in Medicine (2024): 102845.**
 - Yang, Xi, et al. "A study of deep learning methods for de-identification of clinical notes in cross-institute settings." BMC medical informatics and decision making 19 (2019): 1-9.
 - Kocaman, Veysel, D. Talby, and H. Ul Hak. "RWD143 Beyond Accuracy: Automated De-Identification of Large Real-World Clinical Text Datasets." Value in Health 26.12 (2023): S532.
+- Kocaman, Veysel, et al. "Automated de-identification of arabic medical records." Proceedings of ArabicNLP 2023. 2023.
+- Scheibner, James, et al. "Revolutionizing medical data sharing using advanced privacy-enhancing technologies: technical, legal, and ethical synthesis." Journal of medical Internet research 23.2 (2021): e25120.
 
-  
+### Tools
+- https://www.johnsnowlabs.com/deidentification/
+- https://temu.bsc.es/meddocan/
+
+
+## YouTube
+- https://www.youtube.com/watch?v=eOgXhrwlZqQ
+- https://www.youtube.com/watch?v=N9bUvXyOiXk
+- **https://www.youtube.com/watch?v=SuzqI3CM8ik**
+- 
