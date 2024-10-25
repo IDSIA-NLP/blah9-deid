@@ -20,7 +20,7 @@ Our approach involves a multi-stage pipeline that uses LLMs to generate, annotat
 
 
 **3. Training and Evaluation**
-   Pre-trained language models (PLMs) will be trained on the synthetic dataset and evaluated against public datasets, such as Nursing Notes[^1], MedDocan[^3] , and MultiLeg[^4], to verify the model’s effectiveness when applied to real-world data.
+   Pre-trained language models (PLMs) will be trained on the synthetic dataset and evaluated against public datasets, such as Nursing Notes[^1], MedDocan[^3], and MultiLeg[^4], to verify the model’s effectiveness when applied to real-world data.
 
 **4. Red-Teaming and Quality Assurance**
    The final step employs red-teaming, where an LLM rigorously evaluates the de-identified text. This red-team LLM will check for leaking entity types based on gold-standard datasets and provide a qualitative assessment, including a note and a label (“identifiable,” “partially identifiable,” or “non-identifiable”), for a comprehensive privacy check.
@@ -54,7 +54,7 @@ This timeline focuses on delivering a minimal working prototype, enabling us to 
 This project explores LLM-based synthetic data generation as a strategy to address data scarcity in clinical de-identification by producing a privacy-compliant, multilingual synthetic clinical dataset. Our approach combines generation, annotation, and red-teaming to ensure dataset quality and privacy compliance, supporting BLAH’s mission to enhance biomedical data interoperability. This prototype could ultimately pave the way for scalable, privacy-conscious NLP solutions across healthcare sectors.
 
 ## References
-[^1] Douglass, M., Long, B., Moody, G., Szolovits, P., Lehman, L., Mark, R., & Clifford, G. D. (2007). Deidentified Medical Text (version 1.0). PhysioNet. https://doi.org/10.13026/jc2a-ca12.
-[^2] Neamatullah I, Douglass M, Lehman LH, Reisner A, Villarroel M, Long WJ, Szolovits P, Moody GB, Mark RG, Clifford GD. Automated De-Identification of Free-Text Medical Records. BMC Medical Informatics and Decision Making, 2008, 8:32. doi:10.1186/1472-6947-8-32
-[^3] Marimon, Montserrat, et al. "Automatic De-identification of Medical Texts in Spanish: the MEDDOCAN Track, Corpus, Guidelines, Methods and Evaluation of Results." IberLEF@ SEPLN. 2019.
-[^4] Vīksna, Rinalds, and Inguna Skadiņa. "MultiLeg: Dataset for Text Sanitisation in Less-resourced Languages." Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 2024.
+[^1] Douglass, M., Long, B., Moody, G., Szolovits, P., Lehman, L., Mark, R., & Clifford, G. D. (2007). Deidentified Medical Text (version 1.0). PhysioNet. https://doi.org/10.13026/jc2a-ca12.  
+[^2] Neamatullah I, Douglass M, Lehman LH, Reisner A, Villarroel M, Long WJ, Szolovits P, Moody GB, Mark RG, Clifford GD. Automated De-Identification of Free-Text Medical Records. BMC Medical Informatics and Decision Making, 2008, 8:32. doi:10.1186/1472-6947-8-32  
+[^3] Marimon, Montserrat, et al. "Automatic De-identification of Medical Texts in Spanish: the MEDDOCAN Track, Corpus, Guidelines, Methods and Evaluation of Results." IberLEF@ SEPLN. 2019.  
+[^4] Vīksna, Rinalds, and Inguna Skadiņa. "MultiLeg: Dataset for Text Sanitisation in Less-resourced Languages." Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 2024.  
