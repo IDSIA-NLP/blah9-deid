@@ -1,5 +1,7 @@
 # Creation and Evaluation of a Multilingual Synthetic Clinical Dataset for PHI De-Identification
 
+Project proposal for Biomedical Linked Annotation Hackathon 9
+
 ## Motivation and Objectives 
 The expanded use of large language models (LLMs) in healthcare has intensified privacy concerns, particularly in handling clinical notes, which contain sensitive personal health information (PHI). Privacy regulations such as the Health Insurance Portability and Accountability Act (HIPAA) and General Data Protection Regulation (GDPR) restrict the availability of clinical data for model training, limiting advancements in natural language processing (NLP) within this field. Privacy risks associated with closed, cloud-based corporate LLMs add further challenges to clinical NLP, especially for languages with limited resources. While previous work has shown that synthetic general-domain datasets can be generated to mask personally identifiable information, developing domain-specific datasets tailored to the unique needs of clinical NLP remains an open task [^1].
 
