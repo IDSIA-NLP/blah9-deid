@@ -8,7 +8,7 @@ The expanded use of large language models (LLMs) in healthcare has intensified p
 This project aims to develop a prototype system that generates synthetic, multilingual clinical notes tailored for PHI de-identification model training. Such models are essential for de-identifying real-world clinical notes, making these notes usable for advanced, privacy-compliant NLP applications within the biomedical domain.
 
 
-![Overview IMG](https://github.com/IDSIA-NLP/blah9-deid/blob/main/img/blah9-deid.png)
+![Pipeline](./img/blah9-deid.png "Pipeline)
 
 ##  Goals
 - Develop a pipeline utilizing LLMs like GPT4o as agents to produce a **synthetic clinical notes dataset for the PHI de-identification** task across **five languages**: English, Spanish, German, Italian, and Dutch.
