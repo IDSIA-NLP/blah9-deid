@@ -57,8 +57,8 @@ This timeline focuses on delivering a minimal working prototype, enabling us to 
 This project explores LLM-based synthetic data generation as a strategy to address data scarcity in clinical de-identification by producing a privacy-compliant, multilingual synthetic clinical dataset. Our approach combines generation, annotation, and red-teaming to ensure dataset quality and privacy compliance, supporting BLAH’s mission to enhance biomedical data interoperability. This prototype could ultimately pave the way for scalable, privacy-conscious NLP solutions across healthcare sectors.
 
 ## References
-[^1] Ai4privacy/PII-masking-400k · datasets at hugging face. Hugging Face Datasets Ai4Privacy/PII-Masking-400k. (n.d.). https://huggingface.co/datasets/ai4privacy/pii-masking-400k 
-[^2] Douglass, M., Long, B., Moody, G., Szolovits, P., Lehman, L., Mark, R., & Clifford, G. D. (2007). Deidentified Medical Text (version 1.0). PhysioNet. https://doi.org/10.13026/jc2a-ca12.  
+[^1] Ai4privacy/PII-masking-400k · datasets at hugging face. Hugging Face Datasets Ai4Privacy/PII-Masking-400k. (n.d.). https://huggingface.co/datasets/ai4privacy/pii-masking-400k  
+[^2] Douglass, M., Long, B., Moody, G., Szolovits, P., Lehman, L., Mark, R., & Clifford, G. D. (2007). Deidentified Medical Text (version 1.0). PhysioNet. https://doi.org/10.13026/jc2a-ca12.   
 [^3] Neamatullah I, Douglass M, Lehman LH, Reisner A, Villarroel M, Long WJ, Szolovits P, Moody GB, Mark RG, Clifford GD. Automated De-Identification of Free-Text Medical Records. BMC Medical Informatics and Decision Making, 2008, 8:32. doi:10.1186/1472-6947-8-32  
 [^4] Marimon, Montserrat, et al. "Automatic De-identification of Medical Texts in Spanish: the MEDDOCAN Track, Corpus, Guidelines, Methods and Evaluation of Results." IberLEF@ SEPLN. 2019.  
 [^5] Vīksna, Rinalds, and Inguna Skadiņa. "MultiLeg: Dataset for Text Sanitisation in Less-resourced Languages." Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 2024.  
