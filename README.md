@@ -9,8 +9,8 @@ This project aims to develop a prototype system that generates synthetic, multil
 ![Overview IMG](https://github.com/coree/blah9-deid/blob/main/img/blah9-deid.png)
 
 ##  Goals
-- Develop a pipeline utilizing LLMs like GPT4o as agents to produce synthetic clinical data for de-identification tasks across five target languages: English, Spanish, German, Italian, and Dutch.
-- Evaluate and red-team models trained on synthetic data against real-world gold-standard datasets.
+- Develop a pipeline utilizing LLMs like GPT4o as agents to produce a **synthetic clinical notes dataset for the PHI de-identification** task across **five languages**: English, Spanish, German, Italian, and Dutch.
+- **Evaluate models trained on synthetic data against real-world gold-standard datasets**.
 
 ## Methodology
 Our approach involves a multi-stage pipeline that uses LLMs to generate, annotate, and evaluate synthetic clinical notes:
@@ -23,7 +23,7 @@ Our approach involves a multi-stage pipeline that uses LLMs to generate, annotat
 
 
 **3. Training and Evaluation**
-   Pre-trained language models (PLMs) will be trained on the synthetic dataset and evaluated against public datasets, such as Nursing Notes[^2,3], MedDocan[^4], and MultiLeg[^5], to verify the model’s effectiveness when applied to real-world data.
+   Pre-trained language models (PLMs) will be trained on the synthetic dataset and evaluated against public datasets, such as **Nursing Notes**[^2,3], **MedDocan**[^4], and **MultiLeg**[^5], to verify the model’s effectiveness when applied to real-world data.
 
 **4. Red-Teaming and Quality Assurance (Optional)**
   An optional final step involves red-teaming, where an LLM rigorously evaluates the de-identified text. This red-team LLM will check for leaking entity types based on gold-standard datasets and provide a qualitative assessment, including a note and a label (“identifiable,” “partially identifiable,” or “non-identifiable”), for a comprehensive privacy check. This step will be implemented if time permits within the hackathon constraints.
